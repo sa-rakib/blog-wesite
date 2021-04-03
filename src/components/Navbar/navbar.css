@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #565673;
+    padding: 0 10px; 
+}
+.navbarSearch{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.searchInput{
+    margin: 0 7px;
+    border: none;
+    width: 0;
+    transition: width 0.5s ease-in;
+}
+.searchInput.active{
+    width:150px;
+}
+.searchInput:focus{
+    outline:none;
+}
+.formSearch{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.searchIcon{
+    cursor: pointer;
+}
